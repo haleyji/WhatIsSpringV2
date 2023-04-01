@@ -13,14 +13,14 @@ public class TraceStatus {
     }
 
     public TraceId getTraceId() {
-        return traceId;
+        return this.traceId;
     }
 
     public Long getStartTimeMs() {
-        return startTimeMs;
+        return this.startTimeMs;
     }
 
     public String getMessage() {
-        return message;
+        return this.message;
     }
 }
